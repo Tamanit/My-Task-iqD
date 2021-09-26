@@ -1,0 +1,101 @@
+html
+{
+	height: 700px;
+	width: 1152px;
+}
+
+header
+{
+	margin: 0;
+	height: 50px;
+	width: 100%;
+	background-color: #091d2e;
+}
+
+body
+{
+	background-color: #e3e3e3;
+	height: 700px;
+	width: 1152px;
+	margin: 0;
+	padding: 0;
+}
+
+#MeinPart
+{
+	font-family: "Arial";
+	width: 844px;
+	height: 100%;
+	background-color: #fffafa;
+	margin: auto;
+	padding: 37px 19px; 
+}
+
+#Lable
+{	
+	font-size: xx-large;
+	text-align: center;
+	margin: 0 0 0 0;
+}
+
+#Description
+{
+	
+	text-align: center;
+	font-size: small;
+	margin: 37px 0;
+}
+
+.dInput
+{
+	margin: 0 0 37px 0;
+}
+#term
+{
+	width: 206px;
+}
+
+input[type="text"] 
+{
+	height: 37px; 
+	width: 270px;
+	border-radius: 1px;
+	border-width: 1px;
+	border-color: #000000;
+}
+
+#NextPaymentsLabel
+{
+	font-size: small;
+	display: inline-block;
+	height: 37px; 
+	width: 276px;
+	min-width: 270px;
+}
+#MonthOrYear
+{
+	height: 41px;
+	margin: -6px;
+}
+
+.inputs
+{
+	margin: 0 71.75px;
+}
+
+#submit
+{
+	height: 37px;
+	width: 165px;
+	margin: 0 71.75px;
+	border-radius: 1px;
+	border-width: 0px;
+	background-color: #78ff7c;
+}
+
+#results
+{
+	margin: 0 0 0 70px;
+	color: #32a850;
+	font-size: 375%;
+}
