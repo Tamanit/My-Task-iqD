@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<meta charset = "utf-8">
+	<script scr = "assets/jQuery/jquery-3.6.0.min" ></script>
+	<link href="assets/dist/css/datepicker.min.css" rel="stylesheet" type="text/css" />
+	<script src="assets/dist/js/datepicker.min.js"></script>
+	
+	<link href="style.css"  rel="stylesheet" type="text/css" />
+	<script src="script.js"></script>
+	
+	<title>Test assignment</title>
+	
+</head>
+
+<header></header>
+
+<body>
+
+<div id = "MeinPart" >
+
+	<p>Депозитный калькулятор</p>
+	<p id = "Description" >Калькулятор депозитов позволяет ваши доходы после внесения суммы на счет в банке по определенному тарифу.</p>
+
+	<form id = "form" >
+	
+		<div id = "1LineOfInput" class = "dInput">
+		
+			<input class = "inputs datepicker-here" placeholder = "Дата открытия" id = "startDate" type= "text" name= "startDate" />
+			
+			<label class = "inputs">
+			
+				<input placeholder = "Срок вклада" id= "term" type= "text" name= "term" />
+				<select id= "MonthOrYear" >
+				
+					<option id = "Month" value= "1" >Месяц</option>
+					<option id = "Year" value= "12" >Год</option>
+					
+				</select>
+			
+			</label>
+		
+		</div>
+		
+		<div id = "2LineOfInput" class = "dInput">
+		
+			<input class = "inputs" placeholder = "Сумма вклада" id= "sum" type= "text" name= "sum" />
+			<input class = "inputs" placeholder = "Процентная ставка, % годовых" id= "percent" type= "text" name= "percent" />
+		
+		</div>
+		<div id = "3LineOfInput" class = "dInput">
+		
+			<label class = "inputs" id = "NextPaymentsLabel">
+			
+				<input  id = "NextPayments" type= "checkbox" name = "NextPayments" checked />
+				Ежемемесячное пополнение вклада
+				
+			</label>
+			<input class = "inputs" placeholder = "Сумма пополнения вклада" id= "sumAdd" type= "text" name= "sumAdd" />
+		
+		</div>
+	
+		<input id="submit" type= "button" name= "submit" value = "Рассчитать" />
+	
+	</form>
+
+	<hr>
+	
+	<div id = "results"></div>
+
+</div>
+
+</body>
+
+</html>
